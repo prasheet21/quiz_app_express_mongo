@@ -1,0 +1,111 @@
+*{
+    margin:0 ;
+    padding:0 ;
+}
+body{
+    overflow-y: hidden;
+    background-image :url(backgorund.jpg) , linear-gradient(to bottom,black,#26B1DB)  ;
+    background-size :cover ;
+    margin:0 ;
+    padding:0 ;
+}
+
+.signup-section h1{
+    margin:20px 0 ;
+    width:fit-content;
+}
+
+.signup-section  {
+    
+    margin :100px auto ;
+    display : flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster Two', cursive;
+    box-sizing: border-box;
+    padding : 20px ;
+    border-radius: 13px ;
+    background-color : rgba(0,0,0,0.6) ;
+    color : whitesmoke ;
+    width: 560px ;
+}
+
+#input-cred {
+    margin-top : 30px ;
+    width:80% ;
+    display: flex ;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+#input-cred input{
+    width:100% ;
+    border : none ;
+    outline:none ;
+    background:rgba(128,128,128,0.3) ;
+    margin-top:12px ;
+    padding:10px ;
+    border-radius: 4px;
+    box-shadow: inset 5px 5px 6px 2px grey;
+    font-size:18px ;
+    color : gold ;
+}
+
+#input-cred input::placeholder{
+    color:white ;
+}
+
+#input-cred div {
+    display: flex;
+    align-items: center;
+}
+i{
+    margin-right: 10px;
+    margin-top: 10px ;
+    color:white ;
+}
+.resetPass{
+    /* text-decoration: none; */
+    color:white ;
+    margin:20px ;
+}
+#signup{
+    /* margin-top:20px ; */
+    margin:25px 0 ;
+    width:80% ;
+    padding:12px ;
+    font-size:21px ;
+    color:white ;
+    font-weight: bolder;
+    background-color:rgba(13,71,161 , 1) ;
+    outline:none ;
+    border:none ;
+    border-radius:100px;
+}
+
+#signup:hover {
+    background-color:rgba(13,71,161 , .8) ;
+    box-shadow: 2px 2px 5px 1px rgba(255,255,255,0.2) ;
+    transition: 0.4s;
+}
+
+.signupLink{
+    margin-top:5% ;
+    font-family: 'Indie Flower', cursive;
+}
+.signupLink a{
+    margin-left:7px ;
+    color : goldenrod ;
+}
+
+#tnc{
+    align-self: flex-start;
+    margin-left : 16% ;
+    margin-top: 2% ;
+}
+
+#tnc label{
+    margin-left:12px ;
+    font-family: 'Grandstander', cursive;
+}

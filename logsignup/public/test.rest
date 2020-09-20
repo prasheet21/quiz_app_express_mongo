@@ -1,0 +1,25 @@
+
+POST http://localhost:8080/updateAdminPassword
+content-type : application/json
+
+{
+    "password" : "admin123"
+}
+
+#######
+GET http://localhost:8080/deleteQuestion?question=What is the capital of Madhya Pradesh?
+
+#######
+POST http://localhost:8080/updateAdminDetails
+content-type : application/json
+
+{
+    "name" : "prasheet pathak" , 
+    "designation" : "typ member" ,
+    "about" : "i am prasheet" ,
+    "sr" : "2" ,
+    "linkedin" : "linkedin" ,
+    "github" : "github" ,
+    "facebook" : "fabcebook" ,
+    "email" : "prasheetp@gmail.com" 
+}

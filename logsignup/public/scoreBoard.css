@@ -1,0 +1,32 @@
+body{
+    background-color : #eadbe2 ;
+}
+
+td , tr , table{
+    border:2px solid black ;
+    text-align: center;
+}
+td{
+    padding:10px ;
+    font-size : 20px ;
+    font-weight: bolder;
+}
+table{
+    width:30% ;
+    margin:50px auto ;
+}
+#back_to_quiz{
+    margin: 30px 10px ;
+    padding:20px 20px  ;
+    border-radius : 10px ;
+    text-decoration : none ;
+    margin-top : 30px ;
+    color : white ;
+    font-size : 20px ;
+    font-weight : bolder ;
+    background-color : black ;
+    vertical-align: middle ;
+}
+#back_to_quiz i {
+    margin-right : 10px ;
+}

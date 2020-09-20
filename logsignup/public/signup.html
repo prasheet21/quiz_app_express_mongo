@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Application</title>
+        <link rel="stylesheet" href="signup.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main-container">
+            <div class="signup-section">
+                <h1>Quiz SignUp</h1>
+                <div id="input-cred">
+                    <div><i class="fas fa-user-tag fa-lg"></i><input type="text" for="name" id = "username" placeholder="Full Name" required/></div>
+                    <div><i class="fas fa-user-alt fa-lg"></i><input type="text" for="email" id = "email" placeholder="Email Id" required/></div>
+                    <div><i class="fas fa-key fa-lg"></i><input type="password" for="password" id = "passcode" placeholder="Password" required/></div>
+                    <div><i class="fas fa-key fa-lg"></i><input type="password" for="cnfrmpass" id = "cnfrmpass" placeholder="Confirm Password" required/></div>
+                    <div><i class="fas fa-phone-alt fa-lg" ></i><input type="tel" for="Backup Contact" id = "contact" placeholder="Backup Contact" required/></div>
+                </div>
+                <div id = "tnc"><input class="tncCheckBox" type="checkbox"><label for="tnc">Accept all terms and Conditions</label></div>
+                <input type = "submit" onclick="getNewUser(username.value , email.value , passcode.value , cnfrmpass.value , contact.value)" id = "signup" value = "Sign-up">
+                <p class="signupLink">Already have an Account<a href="login.html">Login/Sign-in</a></p>
+            </div>
+        </div>
+        <script src = "signup.js"></script>
+        <script src="https://kit.fontawesome.com/9f42f1f52a.js" crossorigin="anonymous"></script>
+    </body>
+</html>

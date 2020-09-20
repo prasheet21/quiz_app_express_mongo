@@ -1,0 +1,87 @@
+body{
+    background-color : #eadbe2 ;
+}
+
+
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+
+#nav {
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav a{
+    text-decoration: none ;
+    text-align: center;
+    padding:15px 12px ;   
+    width:130px ;
+    outline:none ;
+    border:none ;
+    background-color : blue ;
+    color : white ;
+    font-weight : bolder ;
+    font-size: larger;
+    border-radius:5px ;
+    align-self: flex-end;
+    margin-right:3% ;
+    cursor : pointer ;
+}
+.quiz-box{
+    display:flex ;
+    flex-direction: column;
+    background-color : #fffafa ;
+    box-sizing: border-box;
+    overflow:hidden ;
+    border-radius: 5px;
+    width:36vw ;
+    margin:110px auto ;
+}
+
+#quiz-options{
+    line-height : 35px ;
+}
+/* #quiz-options label input { 
+    cursor: pointer;
+}    */
+#question-section{
+    padding:0px 47px ;
+    margin-bottom: 30px ;
+}
+#submitBtn{
+    background-color: #800080 ;
+    cursor: pointer;
+    outline:none ;
+    border:none ;
+    color:white ;
+    font-weight: bold;
+    margin-top:20px ;
+    font-size:20px ;
+    width:100% ;
+    height : 70px ;
+}
+
+#resetBtn{
+    cursor: pointer; 
+    outline: none;
+    border:none ;
+    background-color :darkred ;
+    padding:10px ;
+    margin-left:auto ;
+    color : white ;
+}
+#reload{
+    background-color: blue ;
+    cursor: pointer;
+    outline:none ;
+    border:none ;
+    color:white ;
+    font-weight: bold;
+    margin-top:20px ;
+    font-size:20px ;
+    width:100% ;
+    height : 70px ;
+}

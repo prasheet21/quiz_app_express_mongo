@@ -1,0 +1,181 @@
+*{
+    margin:0 ;
+    padding:0 ;
+}
+body{
+    overflow-y: hidden;
+    background :url(backgorund.jpg) center center fixed no-repeat  ;
+    background-size :cover ;
+    margin:0 ;
+    padding:0 ;
+}
+
+.login-section h1{
+    margin:20px 0 ;
+    width:fit-content;
+}
+
+.login-section  {
+    
+    margin:100px auto ;
+    display : flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster Two', cursive;
+    box-sizing: border-box;
+    padding : 20px ;
+    border-radius: 13px ;
+    background-color : rgba(0,0,0,0.6) ;
+    color : whitesmoke ;
+    width: 560px ;
+}
+
+#input-cred {
+    margin-top : 30px ;
+    width:80% ;
+    display: flex ;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+#input-cred input{
+    width:100% ;
+    border : none ;
+    outline:none ;
+    background:rgba(128,128,128,0.3) ;
+    margin-top:12px ;
+    padding:10px ;
+    border-radius: 4px;
+    box-shadow: inset 5px 5px 6px 2px grey;
+    font-size:18px ;
+    color : gold ;
+}
+
+#input-cred input::placeholder{
+    color:white ;
+}
+
+#input-cred div {
+    display: flex;
+    align-items: center;
+}
+i{
+    margin-right: 10px;
+    margin-top: 10px ;
+    color:white ;
+}
+.resetPass{
+    /* text-decoration: none; */
+    color:white ;
+    margin:20px ;
+}
+#login{
+    margin-top:20px ;
+    width:80% ;
+    padding:12px ;
+    font-size:21px ;
+    color:white ;
+    font-weight: bolder;
+    background-color:rgba(13,71,161 , 1) ;
+    outline:none ;
+    border:none ;
+    border-radius:100px;
+}
+
+#login:hover {
+    background-color:rgba(13,71,161 , .8) ;
+    box-shadow: 2px 2px 5px 1px rgba(255,255,255,0.2) ;
+    transition: 0.4s;
+}
+
+.signinLink{
+    margin-top:30% ;
+    font-family: 'Indie Flower', cursive;
+}
+.signinLink a{
+    margin-left:7px ;
+    color : goldenrod ;
+}
+#admin_login{
+    width:70% ;
+    padding:12px 0px ;
+    cursor: pointer;
+    margin-top : 20px ;
+    outline : none ;
+    border:2px black solid ;
+    background-color: bisque;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px ;
+    box-shadow: 1px 1px 20px 1px white;
+}
+
+.modal{
+    transition: 1s ease-in-out;
+    height : 250px ;
+    width:30% ;
+    border-radius: 5px ;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.9) ;
+    align-items: center;
+    position: fixed;
+    top : 28px ;
+    left : 540px ;
+}
+
+.modal input{
+    width:100% ;
+    margin-top : 30px ;
+    height : 30px ;
+    font-size : 18px ;
+    border:3px solid grey ;
+    border-radius: 5px;
+    color : black ;
+    font-weight: bold;
+    padding-left: 5px ;
+}
+
+#admin_heading{
+    color : white ;
+    margin-top: 17px ;
+}
+
+.groupButton{
+    width:50% ;
+    padding:20px 0px ;
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-evenly;
+    margin-right:9% ;
+    border-radius: 5px ;
+}
+.groupButton *{
+    padding:8px 18px ;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.credDiv{
+    width:80% ;
+    display: flex;
+    align-items:center ;
+}
+
+.credDiv i{
+    margin-top: 24px;
+}
+
+#toast {
+    height : 20px ;
+    width:300px ;
+    padding:10px 20px ;
+    border-radius: 6px ;
+    background-color : #DA1F26 ;
+    color : white ;
+    font-weight: bolder;
+    position:fixed ;
+    bottom:20px ;
+    right : 20px ;
+}

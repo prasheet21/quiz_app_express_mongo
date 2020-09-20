@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Application</title>
+        <link rel="stylesheet" href="login.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main-container">
+            <div class="login-section">
+                <h1>Quiz Application SignIn</h1>
+                <div id="input-cred">
+                    <div><i class="fas fa-user-alt fa-lg"></i><input type="text" for="email" id = "email" placeholder="Email / Username"></div>
+                    <div><i class="fas fa-key fa-lg"></i><input type="password" for="password" id = "passcode" placeholder="Password"></div>
+                </div>
+                <a href="#" class="resetPass">Forget Password / Reset Password ?</a>
+                <input type = "submit" onclick="load_credentials(email.value , passcode.value)" id = "login" value = "Sign-in">
+                <button id="admin_login" onclick = "admin_login()">Admin Login</button>
+                <p class="signinLink">Don't have account ?<a href="signup.html">Sign Up</a></p>
+            </div>
+        </div>
+        <script src = "login.js"></script>
+        <script src="https://kit.fontawesome.com/9f42f1f52a.js" crossorigin="anonymous"></script>
+    </body>
+</html>
